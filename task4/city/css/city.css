@@ -1,0 +1,29 @@
+.history{
+  margin-left: 4%;
+  width: 90%;
+}
+
+.apple{
+  margin-left: 30%;
+  margin-top: 10px;
+  border-radius: 50%;
+}
+
+div.history-main{
+  overflow: hidden;
+  text-align: center;
+}
+
+#flip:hover{
+  cursor: pointer;
+
+}
+
+div.history-pic{
+  float:left;
+  width: 46%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-bottom: 25px;
+  margin-right: 25px;
+}

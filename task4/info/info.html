@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../css/form-filler.css">
+
+  <title>Useful info</title>
+  <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
+  <script src="../js/jquery-3.1.1.min.js"></script>
+  <script src="js/script.js"></script>
+
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+
+</head>
+<body>
+  <header>
+
+    <nav>
+      <ul>
+        <li>
+          <a href="../index.html">Home</a>
+        </li>
+        <li>
+          <a href="../lifehacks/lifehacks.html" >AlmaLifeHacks</a>
+        </li>
+        <li>
+          <a href="../places/places.html" >Places</a>
+        </li>
+        <li>
+          <a href="../city/city.html" >City History</a>
+        </li>
+        <li>
+          <a href="info.html" class = "active">Useful information</a>
+        </li>
+        <li class = "right_nav">
+          <a href="../register.html">Register</a>
+        </li>
+        <li class = "right_nav">
+          <a href="../login.html">Login</a>
+        </li>
+      </ul>
+
+    </nav>
+  </header>
+
+  <main>
+
+    <h2>Other Information</h2>
+
+    <div class="textblock">
+      <span>
+        <a href="http://www.walkingalmaty.com/" target="_blank" title="You will be redirected to another website"><img src="http://www.almaty-kazakhstan.net/wp-content/uploads/1478345374-300x57.png" width="300" height="57"></a>
+      </span>
+      <p>For a walking guide around Almaty please click the picture on the left to visit another website.
+        This link is to an external blog beyond our control and therefore we cannot be held for the reliability or quality of its content nor the views expressed within.
+      </p>
+    </div>
+
+    <hr>
+    <h2>Emergency numbers</h2>
+    <table>
+      <tr>
+        <th>Emergency Department</th>
+        <th>Number</th>
+
+      </tr>
+      <tr>
+        <td>Fire</td>
+        <td>101</td>
+
+      </tr>
+      <tr>
+        <td>Police</td>
+        <td>102</td>
+
+      </tr>
+      <tr>
+        <td>Ambulance</td>
+        <td>103</td>
+
+      </tr>
+      <tr>
+        <td>Gas leaks</td>
+        <td>104</td>
+
+      </tr>
+
+    </table>
+    <hr>
+    <center>
+      <label for="lat">Latitude</label>
+      <input id="lat" name="lat" value="43.2220">
+      <br>
+
+
+      <label for="lng">Longitude</label>
+      <input id="lng" name="lng" value="76.8512">
+
+      <div id="map" style="width: 500px; height: 500px;"></div>
+    </center>
+  </main>
+
+  <footer>
+    <address>
+      <p>Contact us</p>
+      <ul>
+        <li>59 Tole Bi str.</li>
+        <li>KBTU, Almaty</li>
+      </ul>
+    </address>
+    <p>&copy;2017 Aizhan Yerimbetova</p>
+  </footer>
+</body>
+</html>

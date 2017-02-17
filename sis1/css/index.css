@@ -1,0 +1,61 @@
+div.jumborton{
+  background-image: url("../img/main.jpg");
+  width: 100%;
+  height: 500px;
+  background-size:100%;
+  background-repeat:no-repeat;
+}
+div.jumborton{
+  position: relative;
+}
+div.jumborton h1{
+  margin: 0;
+  color: #f1f1f1;
+  font-size:3em;
+  position: absolute;
+  top: 35%;
+  left:30%;
+}
+
+span.header{
+  padding: 8px;
+  background-color: green;
+}
+
+div.jumborton h3{
+  margin: 0;
+  color: #f1f1f1;
+  position: relative;
+  top: 55%;
+  text-align: center;
+}
+
+
+div#main{
+  margin: 0px auto;
+  margin-bottom: 25px;
+  background-color: white;
+  display: flex;
+}
+#main a{
+  text-decoration: none;
+  color: green;
+}
+div.polaroid{
+  float:left;
+  width: 31%;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin-right: 12px;
+  margin-left: 12px;
+  text-align: center;
+  position: relative;
+}
+
+div.polaroid img{
+ width: 100%;
+}
+
+div.polaroid a{
+  text-decoration: none;
+}
